@@ -6,10 +6,10 @@ This project is an implementation of the *Disney BRDF* produced at *Walt Disney 
 This implementation was done using Unity Engine v3.8.
 
 The repo consists of two files:
-  1) *DisneyBRDF_Lit.shader* - Consists of the HLSL code for the BRDF itself alongside texture map initializations and a rendering pass for shadow casting
+  1) *DisneyBRDF_Lit.shader* - Consists of the HLSL code for the BRDF itself alongside texture map initializations and a rendering pass for shadow casting   
      The code for the BRDF is directly referenced by its GLSL implementation for the BRDF explorer found at the following link:
      [GLSL Disney BRDF](https://github.com/wdas/brdf/blob/main/src/brdfs/disney.brdf "GLSL Disney BRDF")
-  3) *brdf_math.cginc* - An include file that is utilized in the first file for all of the essential PBR-related math needed to implement the Disney BRDF.
+  2) *brdf_math.cginc* - An include file that is utilized in the first file for all of the essential PBR-related math needed to implement the Disney BRDF.
 
 **Note*: There are no textures or materials in this repo, just the shader program.*
 
@@ -19,7 +19,7 @@ The repo consists of two files:
   
 * Start a new project in Unity
   * In the Project window right click and import shader code via `Import New Asset`
-  * Import preferred assets that contain texture maps utilizing the same method as above
+  * Import preferred assets that contain texture maps utilizing the same method as above   
     **Note** that this implementation supports the following texture maps: *Base Texture, Roughness, Metallic, Normal, Ambient Occlusion, Reflection*
       
 * In the Project window, right click and go to `Create -> Material`
