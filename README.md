@@ -8,7 +8,7 @@ This implementation was done using Unity Engine v3.8.
 The repo consists of two files:
   1) *DisneyBRDF_Lit.shader* - Consists of the HLSL code for the BRDF itself alongside texture map initializations and a rendering pass for shadow casting
           The code for the BRDF is directly referenced by its GLSL implementation for the BRDF explorer found at the following link:
-          [GLSL Disney BRDF](https://github.com/wdas/brdf/tree/main/src/brdfs "GLSL Disney BRDF")
+          [GLSL Disney BRDF](https://github.com/wdas/brdf/blob/main/src/brdfs/disney.brdf "GLSL Disney BRDF")
   2) *brdf_math.cginc* - An include file that is utilized in the first file for all of the essential PBR-related math needed to implement the Disney BRDF.
 
 **Note*: There are no textures or materials in this repo, just the shader program.*
