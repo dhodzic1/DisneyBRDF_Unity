@@ -6,7 +6,7 @@ This project is an implementation of the *Disney BRDF* produced at *Walt Disney 
 ![](mat1.gif)
 ![](mat2.gif)
 
-This implementation was done using Unity Engine v3.8.
+This implementation was done using Unity Engine v2022.3.8.
 
 The repo consists of two files:
   1) *DisneyBRDF_Lit.shader* - Consists of the HLSL code for the BRDF itself alongside texture map initializations and a rendering pass for shadow casting   
