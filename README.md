@@ -3,9 +3,9 @@
 This project is an implementation of the *Disney BRDF* produced at *Walt Disney Animation Studios*.
 [DisneyBRDF Paper By Brent Burley](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf "DisneyBRDF Paper By Brent Burley")
 
-![](mat1.gif)
-![](mat2.gif)
-![](mat3.gif)
+![](gifs/mat1.gif)
+![](gifs/mat2.gif)
+![](gifs/mat3.gif)
 
 This implementation was done using Unity Engine v2022.3.8.
 
