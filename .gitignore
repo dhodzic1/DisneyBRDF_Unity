@@ -1,0 +1,10 @@
+DisneyBRDF_Lit.shader.meta
+Materials.meta
+Materials
+README.md.meta
+brdf_math.cginc.meta
+mat1.gif.meta
+mat2.gif.meta
+.idea/
+.DS_Store
+*.xml
